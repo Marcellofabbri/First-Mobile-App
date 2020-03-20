@@ -14,15 +14,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Text(
-            'The body of the app in the middle',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.redAccent[700],
-              fontFamily: 'BalooThambi',
-            )
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.red[900],
+          size: 50.0,
         ),
       ),
       floatingActionButton: FloatingActionButton(
